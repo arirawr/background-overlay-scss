@@ -16,6 +16,6 @@ Use the SCSS mixin to make your own overlays.
 
 `.my-overlay { @include overlay(#BADA55, 0.4) }`
 
-#### Built in classes ([EXPLORE HERE](http://arirawr.github.io/background-overlay-scss/builtin))
+### Examples: Built in classes ([EXPLORE HERE](http://arirawr.github.io/background-overlay-scss/builtin))
 
-![All builtin classes](http://github.io/arirawr/background-overlay-scss/builtin.jpg)
+![All builtin classes](http://arirawr.github.io/background-overlay-scss/builtin.jpg)
