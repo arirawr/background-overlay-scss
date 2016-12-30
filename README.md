@@ -1,5 +1,5 @@
 # background-overlay-scss
-SCSS mixin and compiled CSS for a simple, customisable box shadow overlay for background images.
+SCSS mixin and compiled CSS for a simple, customisable box shadow overlay for background images. Use images directly from the web without opening Photoshop.
 
 ## [SEE EXAMPLE HERE.](http://arirawr.github.io/background-overlay-scss)
 
