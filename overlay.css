@@ -1,0 +1,13 @@
+.overlay-black-50 {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5); }
+
+.overlay-white-50 {
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.5); }
+
+.overlay-blue-30 {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 255, 0.3); }
+
+.overlay-pink-70 {
+  box-shadow: inset 0 0 0 1000px rgba(255, 105, 180, 0.7); }
+
+/*# sourceMappingURL=overlay.css.map */

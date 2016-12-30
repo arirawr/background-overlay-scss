@@ -1,0 +1,19 @@
+@mixin overlay($color, $alpha) {
+    box-shadow: inset 0 0 0 1000px rgba($color, $alpha);
+}
+
+.overlay-black-50 {
+    @include overlay(black, 0.5);
+}
+
+.overlay-white-50 {
+    @include overlay(white, 0.5);
+}
+
+.overlay-blue-30 {
+    @include overlay(blue, 0.3);
+}
+
+.overlay-pink-70 {
+    @include overlay(hotpink, 0.7);
+}

@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>CSS Background Overlay Example</title>
+        <link rel="stylesheet" href="overlay.css"/>
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            section {
+                height: 50vh;
+                width: 100%;
+                background-image: url('http://lorempixel.com/800/400');
+                background-size: cover;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            section.overlay-black-50,
+            section.overlay-blue-30,
+            section.overlay-pink-30 {
+                color: white;
+            }
+            .new-image {
+                display: block;
+                background-color: dodgerblue;
+                border-radius: 6px;
+                padding: 20px;
+                margin: 20px 40px;
+                line-height: 20px;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+            }
+            .new-image:hover {
+                background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div><a class="new-image" href="javascript:history.go(0)">New Image</a></div>
+        <section class="overlay-black-50">
+            <h2>Make images more usable without complex image editing.</h2>         
+        </section>
+        <section class="overlay-white-50">
+            <h2>Lighten images to make them fit into your theme.</h2>
+        </section>
+        <section class="overlay-blue-30">
+            <h2>Match your brand colours - use the SCSS mixin to overlay any colour.</h2>
+        </section>
+        <section class="overlay-pink-70">
+            <h2>Just include one CSS file: <a href="#">instructions here.</a></h2>
+        </section>
+    </body>
+</html>
